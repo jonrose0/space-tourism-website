@@ -419,6 +419,8 @@ function Tabs({ dataType, dataName }: TabsProps) {
 	const [tabData, setTabData] = useState(dataType[0]);
 	const [activeTab, setIActiveTab] = useState(0);
 
+	console.log(tabData);
+
 	useEffect(() => {
 		setTabData(dataType[0]);
 	}, [dataType]);

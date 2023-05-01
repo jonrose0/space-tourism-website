@@ -10,6 +10,8 @@ import bgTechnologyMobile from './assets/technology/background-technology-mobile
 import bgTechnologyTablet from './assets/technology/background-technology-tablet.jpg';
 import bgTechnologyDesktop from './assets/technology/background-technology-desktop.jpg';
 
+console.log(bgTechnologyDesktop);
+
 interface DescriptionProps {
 	styles: string;
 }

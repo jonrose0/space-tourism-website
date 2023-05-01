@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import data from './data.json';
+import data from './data.js';
 import Home from './Home';
 import {
 	createGlobalStyle,

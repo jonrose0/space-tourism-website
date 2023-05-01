@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styled from 'styled-components';
-import data from './data.json';
+import data from './data.js';
 import Tabs from './Tabs';
 import bgDestinationMobile from './assets/destination/background-destination-mobile.jpg';
 import bgDestinationTablet from './assets/destination/background-destination-tablet.jpg';

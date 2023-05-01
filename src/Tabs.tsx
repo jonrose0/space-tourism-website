@@ -425,6 +425,7 @@ function Tabs({ dataType, dataName }: TabsProps) {
 
 	useEffect(() => {
 		setTabData(dataType[0]);
+		setIActiveTab(0);
 	}, [dataType]);
 
 	const handleClick = (index: number) => {
